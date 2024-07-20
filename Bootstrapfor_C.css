@@ -1,0 +1,29 @@
+/* Custom CSS */
+body {
+    padding-top: 56px;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text for better readability */
+}
+
+.navbar-brand img {
+    height: 40px; /* Ensures the logo size is consistent */
+}
+
+h1, h3 {
+    color: #007bff; /* Gives headers a consistent blue color */
+}
+
+.card {
+    margin-top: 20px; /* Adds spacing between cards for movie titles */
+}
+
+.img-fluid {
+    max-height: 300px; /* Limits the size of images to keep the layout uniform */
+    margin-bottom: 10px; /* Adds space below images */
+}
+
+/* Hover effect for movie images */
+.img-fluid:hover {
+    transform: scale(1.05); /* Scales the movie images slightly on hover */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
